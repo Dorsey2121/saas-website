@@ -1,0 +1,254 @@
+html {
+  color: #716b79;
+  font-family: 'PT Serif', serif;
+}
+
+h1,
+h2,
+h3,
+.icon-label,
+.pricing,
+.btn,
+.foot-banner {
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type="checkbox"] + label::before {
+  position: absolute;
+  left: -1000px;
+}
+
+nav {
+  z-index: 100000000000;
+}
+
+hr {
+  border: 1px solid #ccc;
+}
+
+.btn {
+  background-color: #d4765d;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+}
+
+.btn-border {
+  background-color: transparent;
+  border: 3px solid #d4765d;
+  border-radius: 20px;
+}
+
+
+
+.btn:hover {
+  background-color: #ef8873;
+  border-color: #ef8873;
+}
+
+
+.none {
+  display: none;
+}
+
+.desk-nav {
+  display: none;
+}
+
+.img-trump {
+  display: block;
+  height: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-cris {
+  display: block;
+  height: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-markbot {
+  display: block;
+  height: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-jed {
+  display: block;
+  height: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.large {
+  display: none;
+}
+
+.foot-banner {
+ background-color: #9ec4cd;
+ color: #fff;
+}
+
+.card {
+  background-color: #F5F5F5;
+  border-radius: 8px;
+}
+
+.banner {
+  overflow: hidden;
+  min-height: 30rem;
+  height: 80vh;
+  background-image: url("../images/home-banner.jpg");
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.features-banner {
+  overflow: hidden;
+  min-height: 30rem;
+  height: 80vh;
+  background-image: url("../images/features-banner.jpg");
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.price-head-bg {
+  background-image: url("../images/home-banner.jpg");
+}
+
+.form-banner {
+  background-image: url("../images/forms-background.jpg");
+  background-size: cover;
+}
+
+.white {
+  color: #fff;
+}
+
+.pricing-head {
+  background-color: #d4765d;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #ccc;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 10em;
+  z-index: 999;
+}
+
+.nav a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 30px;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.gold {
+  color: #fff;
+  background-color: #FFD23E;
+}
+
+.silver {
+  color: #fff;
+  background-color: #726C7A;
+}
+
+.bronze {
+  color: #fff;
+  background-color: #B8DB9E;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .nav-open,
+  .nav-close {
+    display: none;
+  }
+
+  .nav-check {
+    display: none;
+  }
+
+  .nav-label {
+    display: none;
+  }
+
+  .large {
+    display: block;
+  }
+
+  .small {
+    display: none;
+  }
+
+  .nav-large .link {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-large .link:hover {
+    color: #aaa;
+    text-decoration: underline;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
