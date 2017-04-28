@@ -2,12 +2,14 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>FX</title>
+  <title>FX Sign Up</title>
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700" rel="stylesheet">
 </head>
 <body>
 
@@ -54,27 +56,24 @@
               <input class="push-eighth" id="name" name="name">
             </div>
             <div class="unit xs-1 s-1 push-half">
-              <label class="white push-half" for="email">Email</label>
-              <input id="email" type="email" name="email">
+              <label class="white push-half" for="email-small">Email</label>
+              <input id="email-small" type="email" name="email-small">
             </div>
             <div class="unit xs-1 s-1 push-half">
-              <label class="white push-half" for="password">Password</label>
-              <input id="password" type="password" name="password">
+              <label class="white push-half" for="password-small">Password</label>
+              <input id="password-small" type="password" name="password-small">
             </div>
             <div class="unit xs-1 s-1 push-double">
-              <label class="white push-half" for="password">Confirm Password</label>
-              <input id="password" type="password" name="password">
+              <label class="white push-half" for="confirm-password-small">Confirm Password</label>
+              <input id="confirm-password-small" type="password" name="confirm-password-small">
             </div>
           </div>
           <div class="text-center">
-            <a href="#">
-              <button class="gutter-double btn push" type="submit">Create Account</button>
-            </a>
+            <button class="gutter-double btn push" type="submit">Create Account</button>
           </div>
         </form>
       </section>
     </main>
-
     <main class="grid large">
       <figure class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 relative push-0">
         <div class="embed embed-1by1">
@@ -84,39 +83,67 @@
       </figure>
       <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
         <div class="text-center">
-          <h1 class="push-half white pad-t">Get Started Now Free</h1>
+          <h2 class="push-half white pad-t">Get Started Now Free</h2>
         </div>
         <section class="gutter">
           <form action="https://formspree.io/dors0019@algonquinlive.com" method="POST">
-            <div class="">
-              <div class="push-half">
-                <label class="" for="name">Full Name</label>
-                <input class="push-eighth" id="name" name="name">
-              </div>
-              <div class="push-half">
-                <label class="" for="email">Email</label>
-                <input id="email" type="email" name="email">
-              </div>
-              <div class="push-half">
-                <label class="" for="password">Password</label>
-                <input id="password" type="password" name="password">
-              </div>
-              <div class="push-double">
-                <label class="" for="password">Confirm Password</label>
-                <input id="password" type="password" name="password">
-              </div>
+            <div class="push-half">
+              <label class="" for="name">Full Name</label>
+              <input class="push-eighth" id="name-large" name="name-large">
+            </div>
+            <div class="push-half">
+              <label class="" for="email-large">Email</label>
+              <input id="email-large" type="email" name="email-large">
+            </div>
+            <div class="push-half">
+              <label class="" for="password-large">Password</label>
+              <input id="password-large" type="password" name="password-large">
+            </div>
+            <div class="push-double">
+              <label class="" for="confirm-password-large">Confirm Password</label>
+              <input id="confirm-password-large" type="password" name="confirm-password-large">
             </div>
             <div class="text-center push">
-              <a href="#">
-                <button class="gutter-double btn" type="submit">Create Account</button>
-              </a>
+              <button class="gutter-double btn" type="submit">Create Account</button>
             </div>
-          </div>
-        </form>
-      </section>
+          </form>
+        </section>
+      </div>
     </main>
   </div>
-
+  <footer class="grid gutter">
+    <div class="unit xs-2-3 s-2-3 text-left">
+      <i class="inline-block icon i-48 push-right-half">
+        <img src="images/fx-logo-orange.svg" alt="">
+      </i>
+      <small class="inline-block push-0 micro pad-top-half">© Copyright 2017</small>
+    </div>
+    <div class="unit xs-1-3 s-1-3 text-right pad-top-half">
+      <ul class="list-group-inline">
+        <li>
+          <a href="#">
+            <i class="icon i-24">
+              <img src="images/facebook.svg" alt="">
+            </i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="icon i-24">
+              <img src="images/instagram.svg" alt="">
+            </i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="icon i-24">
+              <img src="images/pinterest.svg" alt="">
+            </i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 html {
   color: #716b79;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
 }
 
 h1,
@@ -11,7 +11,7 @@ h3,
 .btn,
 .foot-banner,
 li {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 input[type="checkbox"] + label::before {
@@ -23,6 +23,9 @@ nav {
   z-index: 100000000000;
 }
 
+.img-works {
+  height: 10rem;
+}
 
 .btn {
   background-color: #d4765d;
@@ -41,7 +44,6 @@ nav {
   background-color: #ef8873;
   border-color: #ef8873;
 }
-
 
 .none {
   display: none;
@@ -89,12 +91,12 @@ nav {
 }
 
 .foot-banner {
- background-color: #9ec4cd;
- color: #fff;
+  background-color: #9ec4cd;
+  color: #fff;
 }
 
 .card {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   border-radius: 8px;
 }
 
@@ -149,7 +151,7 @@ label,
 
 .nav a {
   display: block;
-  padding: 0.5em;
+  padding: .5em;
   text-decoration: none;
   color: #000;
 }
@@ -195,21 +197,17 @@ label,
 
 .gold {
   color: #fff;
-  background-color: #FFD23E;
+  background-color: #ffd23e;
 }
 
 .silver {
   color: #fff;
-  background-color: #726C7A;
+  background-color: #726c7a;
 }
 
 .bronze {
   color: #fff;
-  background-color: #B8DB9E;
-}
-
-input {
-  border-color: 0;
+  background-color: #b8db9e;
 }
 
 figcaption {
@@ -248,13 +246,5 @@ figcaption {
     color: #aaa;
     text-decoration: underline;
   }
-
-
-
-}
-
-@media only screen and (min-width: 60em) {
-
-
 
 }
