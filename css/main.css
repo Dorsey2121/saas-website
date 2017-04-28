@@ -9,7 +9,8 @@ h3,
 .icon-label,
 .pricing,
 .btn,
-.foot-banner {
+.foot-banner,
+li {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -22,9 +23,6 @@ nav {
   z-index: 100000000000;
 }
 
-hr {
-  border: 1px solid #ccc;
-}
 
 .btn {
   background-color: #d4765d;
@@ -38,8 +36,6 @@ hr {
   border: 3px solid #d4765d;
   border-radius: 20px;
 }
-
-
 
 .btn:hover {
   background-color: #ef8873;
@@ -129,6 +125,7 @@ hr {
   background-size: cover;
 }
 
+label,
 .white {
   color: #fff;
 }
@@ -211,6 +208,13 @@ hr {
   background-color: #B8DB9E;
 }
 
+input {
+  border-color: 0;
+}
+
+figcaption {
+  width: 250px;
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -244,6 +248,8 @@ hr {
     color: #aaa;
     text-decoration: underline;
   }
+
+
 
 }
 
